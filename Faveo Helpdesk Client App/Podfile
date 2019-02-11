@@ -1,0 +1,35 @@
+platform :ios, '9.0'
+
+target 'Faveo Helpdesk Client App' do
+
+pod 'NSDate-Time-Ago'
+pod 'HexColors'
+pod 'IQKeyboardManager'
+
+pod 'ActionSheetPicker-3.0'
+
+pod 'SDWebImage'
+
+pod "RMessage"
+
+pod 'SVProgressHUD'
+
+pod "UITextField_AutoSuggestion"
+pod 'HSAttachmentPicker'
+
+pod 'Fabric'
+pod 'Crashlytics'
+
+
+pod 'SDWebImage', '~> 4.0'
+
+
+ # ignore all warnings from all pods
+    inhibit_all_warnings!
+
+  # ignore warnings from a specific pod
+    pod 'ActionSheetPicker-3.0', :inhibit_warnings => true
+   
+
+
+end
