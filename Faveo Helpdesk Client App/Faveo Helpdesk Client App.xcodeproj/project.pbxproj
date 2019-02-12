@@ -59,6 +59,14 @@
 		069E3FF921074918008F4C7B /* ConversationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 069E3FF721074918008F4C7B /* ConversationTableViewCell.m */; };
 		069E3FFA21074918008F4C7B /* ConversationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 069E3FF821074918008F4C7B /* ConversationTableViewCell.xib */; };
 		06AB03CC2118634D00D32437 /* LoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06AB03CB2118634D00D32437 /* LoadingTableViewCell.m */; };
+		06C2C65722128C400092E314 /* Faveo_Helpdesk_Client_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C65622128C400092E314 /* Faveo_Helpdesk_Client_AppUITests.m */; };
+		06C2C65F22128C780092E314 /* CreateTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C65E22128C780092E314 /* CreateTicket.m */; };
+		06C2C66122128C9D0092E314 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66022128C9D0092E314 /* Search.m */; };
+		06C2C66322128CAD0092E314 /* StatusChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66222128CAD0092E314 /* StatusChange.m */; };
+		06C2C66722128CCF0092E314 /* EditTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66622128CCF0092E314 /* EditTicket.m */; };
+		06C2C66922129D630092E314 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66822129D630092E314 /* UserProfile.m */; };
+		06C2C66B2212A0A40092E314 /* TicketDetailsTicketStatisChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66A2212A0A40092E314 /* TicketDetailsTicketStatisChange.m */; };
+		06C2C66D2212A0EC0092E314 /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C2C66C2212A0EC0092E314 /* AboutUs.m */; };
 		06C8429D215E1C0900E83F55 /* TicketSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C8429C215E1C0900E83F55 /* TicketSearchViewController.m */; };
 		06F1004E2126A4B600D14840 /* MyProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F1004D2126A4B600D14840 /* MyProfile.m */; };
 		06F3F3502170879F0018280E /* URLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F3F34F2170879F0018280E /* URLViewController.m */; };
@@ -66,6 +74,16 @@
 		06F3F3542170B1FA0018280E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F3F3532170B1F90018280E /* CoreGraphics.framework */; };
 		899D4B9372FE2BD663ABA8BC /* libPods-Faveo Helpdesk Client App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A26A8DC8A366E87E559BC4F /* libPods-Faveo Helpdesk Client App.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C2C65922128C400092E314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062E954621059E3900FE2513 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062E954D21059E3900FE2513;
+			remoteInfo = "Faveo Helpdesk Client App";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		062E954E21059E3900FE2513 /* Faveo Helpdesk Client App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Faveo Helpdesk Client App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,6 +178,16 @@
 		069E3FF821074918008F4C7B /* ConversationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationTableViewCell.xib; sourceTree = "<group>"; };
 		06AB03CA2118634D00D32437 /* LoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingTableViewCell.h; sourceTree = "<group>"; };
 		06AB03CB2118634D00D32437 /* LoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingTableViewCell.m; sourceTree = "<group>"; };
+		06C2C65422128C400092E314 /* Faveo Helpdesk Client AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Faveo Helpdesk Client AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C2C65622128C400092E314 /* Faveo_Helpdesk_Client_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Faveo_Helpdesk_Client_AppUITests.m; sourceTree = "<group>"; };
+		06C2C65822128C400092E314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C2C65E22128C780092E314 /* CreateTicket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateTicket.m; sourceTree = "<group>"; };
+		06C2C66022128C9D0092E314 /* Search.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		06C2C66222128CAD0092E314 /* StatusChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusChange.m; sourceTree = "<group>"; };
+		06C2C66622128CCF0092E314 /* EditTicket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditTicket.m; sourceTree = "<group>"; };
+		06C2C66822129D630092E314 /* UserProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		06C2C66A2212A0A40092E314 /* TicketDetailsTicketStatisChange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TicketDetailsTicketStatisChange.m; sourceTree = "<group>"; };
+		06C2C66C2212A0EC0092E314 /* AboutUs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUs.m; sourceTree = "<group>"; };
 		06C8429B215E1C0900E83F55 /* TicketSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketSearchViewController.h; sourceTree = "<group>"; };
 		06C8429C215E1C0900E83F55 /* TicketSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketSearchViewController.m; sourceTree = "<group>"; };
 		06F1004C2126A4B600D14840 /* MyProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProfile.h; sourceTree = "<group>"; };
@@ -191,6 +219,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06C2C65122128C400092E314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -198,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				062E955021059E3900FE2513 /* Faveo Helpdesk Client App */,
+				06C2C65522128C400092E314 /* Faveo Helpdesk Client AppUITests */,
 				062E954F21059E3900FE2513 /* Products */,
 				4C2DD05BFA5576CBFBFB0B50 /* Pods */,
 				AA4167960D66ADBDEAB7BA62 /* Frameworks */,
@@ -208,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				062E954E21059E3900FE2513 /* Faveo Helpdesk Client App.app */,
+				06C2C65422128C400092E314 /* Faveo Helpdesk Client AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -430,6 +467,22 @@
 			path = About;
 			sourceTree = "<group>";
 		};
+		06C2C65522128C400092E314 /* Faveo Helpdesk Client AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06C2C65E22128C780092E314 /* CreateTicket.m */,
+				06C2C66022128C9D0092E314 /* Search.m */,
+				06C2C66222128CAD0092E314 /* StatusChange.m */,
+				06C2C66822129D630092E314 /* UserProfile.m */,
+				06C2C66622128CCF0092E314 /* EditTicket.m */,
+				06C2C66C2212A0EC0092E314 /* AboutUs.m */,
+				06C2C66A2212A0A40092E314 /* TicketDetailsTicketStatisChange.m */,
+				06C2C65822128C400092E314 /* Info.plist */,
+				06C2C65622128C400092E314 /* Faveo_Helpdesk_Client_AppUITests.m */,
+			);
+			path = "Faveo Helpdesk Client AppUITests";
+			sourceTree = "<group>";
+		};
 		06FC01362174582E00675D4F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,6 +539,24 @@
 			productReference = 062E954E21059E3900FE2513 /* Faveo Helpdesk Client App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		06C2C65322128C400092E314 /* Faveo Helpdesk Client AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C2C65B22128C400092E314 /* Build configuration list for PBXNativeTarget "Faveo Helpdesk Client AppUITests" */;
+			buildPhases = (
+				06C2C65022128C400092E314 /* Sources */,
+				06C2C65122128C400092E314 /* Frameworks */,
+				06C2C65222128C400092E314 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C2C65A22128C400092E314 /* PBXTargetDependency */,
+			);
+			name = "Faveo Helpdesk Client AppUITests";
+			productName = "Faveo Helpdesk Client AppUITests";
+			productReference = 06C2C65422128C400092E314 /* Faveo Helpdesk Client AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -505,6 +576,10 @@
 								enabled = 1;
 							};
 						};
+					};
+					06C2C65322128C400092E314 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 062E954D21059E3900FE2513;
 					};
 				};
 			};
@@ -531,6 +606,7 @@
 			projectRoot = "";
 			targets = (
 				062E954D21059E3900FE2513 /* Faveo Helpdesk Client App */,
+				06C2C65322128C400092E314 /* Faveo Helpdesk Client AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -549,6 +625,13 @@
 				062E984B2105FA5600FE2513 /* TicketTableViewCell.xib in Resources */,
 				062E95982105B91800FE2513 /* LaunchScreen.storyboard in Resources */,
 				062E955921059E3900FE2513 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C2C65222128C400092E314 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,7 +758,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06C2C65022128C400092E314 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C2C66122128C9D0092E314 /* Search.m in Sources */,
+				06C2C65722128C400092E314 /* Faveo_Helpdesk_Client_AppUITests.m in Sources */,
+				06C2C65F22128C780092E314 /* CreateTicket.m in Sources */,
+				06C2C66922129D630092E314 /* UserProfile.m in Sources */,
+				06C2C66322128CAD0092E314 /* StatusChange.m in Sources */,
+				06C2C66B2212A0A40092E314 /* TicketDetailsTicketStatisChange.m in Sources */,
+				06C2C66722128CCF0092E314 /* EditTicket.m in Sources */,
+				06C2C66D2212A0EC0092E314 /* AboutUs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C2C65A22128C400092E314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062E954D21059E3900FE2513 /* Faveo Helpdesk Client App */;
+			targetProxy = 06C2C65922128C400092E314 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		062E955721059E3900FE2513 /* Main.storyboard */ = {
@@ -842,6 +948,47 @@
 			};
 			name = Release;
 		};
+		06C2C65C22128C400092E314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VY8B59STG;
+				INFOPLIST_FILE = "Faveo Helpdesk Client AppUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladybirdwebsolutions.Faveo-Helpdesk-Client-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Faveo Helpdesk Client App";
+			};
+			name = Debug;
+		};
+		06C2C65D22128C400092E314 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VY8B59STG;
+				INFOPLIST_FILE = "Faveo Helpdesk Client AppUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ladybirdwebsolutions.Faveo-Helpdesk-Client-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Faveo Helpdesk Client App";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -859,6 +1006,15 @@
 			buildConfigurations = (
 				062E956521059E3B00FE2513 /* Debug */,
 				062E956621059E3B00FE2513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C2C65B22128C400092E314 /* Build configuration list for PBXNativeTarget "Faveo Helpdesk Client AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C2C65C22128C400092E314 /* Debug */,
+				06C2C65D22128C400092E314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

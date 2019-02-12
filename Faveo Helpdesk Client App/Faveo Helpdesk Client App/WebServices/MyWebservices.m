@@ -48,7 +48,9 @@
     _userDefaults=[NSUserDefaults standardUserDefaults];
     globalVariables=[GlobalVariables sharedInstance];
     
-    NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"https://support.faveohelpdesk.com"];
+    //http://servicedesk.ml/helpdeskadvance/public
+   // NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"https://support.faveohelpdesk.com"];
+     NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"http://servicedesk.ml/helpdeskadvance/public"];
     
     NSDictionary *param=[NSDictionary dictionaryWithObjectsAndKeys:[_userDefaults objectForKey:@"username"],@"username",[_userDefaults objectForKey:@"password"],@"password",API_KEY,@"api_key",IP,@"ip",nil];
     

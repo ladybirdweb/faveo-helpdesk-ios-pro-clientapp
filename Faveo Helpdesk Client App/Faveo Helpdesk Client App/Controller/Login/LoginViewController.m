@@ -154,9 +154,11 @@
             [SVProgressHUD showWithStatus:@"Validating data"];
             
             
-          //  globalVariables.appURL =appURL1;
+          //  globalVariables.appURL =appURL1;//http://servicedesk.ml/helpdeskadvance/public
             
-            NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"https://support.faveohelpdesk.com"];
+          //  NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"https://support.faveohelpdesk.com"];
+            NSString *url=[NSString stringWithFormat:@"%@/api/v1/authenticate",@"http://servicedesk.ml/helpdeskadvance/public"];
+            
             
              [self->userdefaults synchronize];
             
@@ -296,11 +298,11 @@
                             [self->userdefaults setObject:profileName forKey:@"profile_name"];
 //                            [self->userdefaults setObject:@"https://www.support.ladybirdweb.com/" forKey:@"baseURL"];
                             
-                            NSString *url2=[NSString stringWithFormat:@"%@/",@"https://support.faveohelpdesk.com"];
+                            NSString *url2=[NSString stringWithFormat:@"%@/",@"http://servicedesk.ml/helpdeskadvance/public"];
                             
                             [self->userdefaults setObject:url2 forKey:@"baseURL"];
                             
-                            NSString *url3=[NSString stringWithFormat:@"%@/api/v1/",@"https://support.faveohelpdesk.com"];
+                            NSString *url3=[NSString stringWithFormat:@"%@/api/v1/",@"http://servicedesk.ml/helpdeskadvance/public"];
                             
                              [self->userdefaults setObject:url3 forKey:@"companyURL"];
 
